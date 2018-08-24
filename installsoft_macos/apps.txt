@@ -13,6 +13,7 @@ iina
 intellij-idea
 iterm2
 java8
+macs-fan-control
 microsoft-office
 microsoft-remote-desktop-beta
 neteasemusic
@@ -23,6 +24,7 @@ qq
 qqlive
 qqmusic
 rdm
+shadowsocksx-ng-r8
 switchhosts
 teamviewer
 termius
