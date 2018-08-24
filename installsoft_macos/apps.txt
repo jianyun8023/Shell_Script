@@ -25,6 +25,7 @@ qqmusic
 rdm
 switchhosts
 teamviewer
+termius
 the-unarchiver
 uninstallpkg
 visual-studio-code

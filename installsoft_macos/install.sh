@@ -30,11 +30,15 @@ do
 done
 }
 
+addTap(){
+    echo '增加Homebrew cask-versions仓库'
+    brew tap homebrew/cask-versions
+    echo '增加Homebrew 私有仓库'
+    brew tap yihy/cask-versions
+}
+
 # 安装GUI软件
 installApps(){
-echo '开启homebrew cask-versions监听'
-brew tap homebrew/cask-versions
-
 echo '安装常用软件'
 cat ./apps.txt | while read line
 do
@@ -51,5 +55,6 @@ done
 
 sudo echo '获取管理员权限'
 installOrUpgrade_Homebrew
+addTap
 installExtlib
 installApps
