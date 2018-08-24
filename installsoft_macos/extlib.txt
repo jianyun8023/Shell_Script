@@ -1,0 +1,9 @@
+aria2
+gradle
+lrzsz
+maven
+openssl
+python3
+telnet
+wget
+youtube-dl
