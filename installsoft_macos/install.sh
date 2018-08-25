@@ -33,8 +33,10 @@ done
 addTap(){
     echo '增加Homebrew cask-versions仓库'
     brew tap homebrew/cask-versions
-    echo '增加Homebrew 私有仓库'
+    echo '增加Homebrew yihy/cask-versions仓库'
     brew tap yihy/cask-versions
+    echo '增加Homebrew homebrew/cask-fonts仓库'
+    brew tap homebrew/cask-fonts 
 }
 
 # 安装GUI软件

@@ -34,3 +34,4 @@ visual-studio-code
 wechat
 wiznote
 xmind
+vmware-fusion
