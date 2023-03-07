@@ -6,7 +6,12 @@
 ## Git相关
 - `git-url.sh` 获得当前目录git仓库的远程地址，将`git-url.sh`中的两个函数粘贴到`.zshrc`中，gurl获得URL，god直接打开URL
 - `tag.py` git打tag简易工具，`python tag.py 分支名 后缀`，直接执行tag会打出 当前分支名-当前年月日-版本，master-20200423-v1.0.0这样的tag并提交。
-当设置分支名时，tag会使用该值，指定后缀时，会在tag名后拼接上该后缀。版本号，从1.0.0开始，依次递增。从1.0.9升级时，版本会变为1.1.0
+   当设置分支名时，tag会使用该值，指定后缀时，会在tag名后拼接上该后缀。版本号，从1.0.0开始，依次递增。从1.0.9升级时，版本会变为1.1.0
+- `gitclone.sh` 将git仓库克隆成树状结构。
+   示例1 `gitclone.sh https://github.com/yihong0618/github_bilingual_book_maker.git`
+   示例2 `gitclone.sh https://github.com/yihong0618/github_bilingual_book_maker.git idea` 检出后idea用打开
+   示例3 `gitclone.sh https://github.com/yihong0618/github_bilingual_book_maker.git code` 检出后code用打开
+  ![效果图](https://object.16661888.xyz/images/2023/03/6nYQFQ.png)
 
 ## 时间戳
 - `tmfmt.py` 格式化时间戳的简单工具，支持10位和13位时间戳。
